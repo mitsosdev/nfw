@@ -1,10 +1,18 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import { NFW } from "@/lib/general/constants";
+import { Link } from "@/lib/i18n/navigation";
 
 interface ServicesSectionProps {
   locale: string;
 }
+
+const serviceRoutes: Record<(typeof NFW.services)[number], string> = {
+  pilatesReformer: "/services/pilates-reformer",
+  functional: "/services/functional",
+  cardio: "/services/cardio",
+};
 
 export async function ServicesSection({ locale }: ServicesSectionProps) {
   setRequestLocale(locale);
@@ -15,6 +23,7 @@ export async function ServicesSection({ locale }: ServicesSectionProps) {
     name: t(`${key}.name`),
     description: t(`${key}.description`),
     image: NFW.images.services[key],
+    href: serviceRoutes[key],
   }));
 
   return (
@@ -37,9 +46,10 @@ export async function ServicesSection({ locale }: ServicesSectionProps) {
         {/* Service Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service) => (
-            <div
+            <Link
               key={service.key}
-              className="group relative aspect-[3/4] overflow-hidden rounded-lg cursor-pointer"
+              href={service.href}
+              className="group relative aspect-[3/4] overflow-hidden rounded-lg cursor-pointer block"
             >
               {/* Background Image */}
               <Image
@@ -67,8 +77,12 @@ export async function ServicesSection({ locale }: ServicesSectionProps) {
                 <p className="mt-3 text-sm text-white/60 leading-relaxed max-w-xs">
                   {service.description}
                 </p>
+                <div className="mt-4 flex items-center gap-2 text-nfw-purple-light text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                  <span>Learn more</span>
+                  <ArrowRight className="size-3" />
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
