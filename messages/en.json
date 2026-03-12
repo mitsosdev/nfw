@@ -1,14 +1,56 @@
 {
-  "HomePage": {
-    "title": "Welcome",
-    "description": "Get started by editing this page.",
-    "components": {
-      "title": "Available Components",
-      "button": "Button",
-      "input": "Input",
-      "card": "Card",
-      "label": "Label"
+  "Nav": {
+    "services": "Services",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "startToday": "Start Today"
+  },
+  "Hero": {
+    "slogan": "IN HERE WE ALL FIT",
+    "subtitle": "Pilates Reformer · Functional · Cardio",
+    "cta": "Start Today",
+    "scrollDown": "Discover more"
+  },
+  "Services": {
+    "title": "Our Programs",
+    "subtitle": "Find the workout that fits you",
+    "pilatesReformer": {
+      "name": "Pilates Reformer",
+      "description": "Strengthen your core and improve flexibility with guided reformer sessions in our fully equipped studio."
+    },
+    "functional": {
+      "name": "Functional Training",
+      "description": "Build real-world strength with dynamic exercises using TRX, kettlebells, and bodyweight movements."
+    },
+    "cardio": {
+      "name": "Cardio",
+      "description": "Boost your endurance and burn calories with high-energy cardio workouts for all fitness levels."
     }
+  },
+  "About": {
+    "title": "About Us",
+    "heading": "In Here, We All Fit",
+    "p1": "At NFW, we believe fitness is for every body. No matter your age, shape, or experience — you belong here.",
+    "p2": "Our studio in Ymittos offers a welcoming space where inclusivity meets intensity. Whether you're stepping onto a Pilates reformer for the first time or pushing your limits with functional training, our expert coaches are with you every step.",
+    "p3": "Join a community where everyone fits in."
+  },
+  "Gallery": {
+    "title": "Gallery",
+    "subtitle": "Life at NFW",
+    "followUs": "Follow us on Instagram"
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Visit us or get in touch",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "findUs": "Find Us"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "madeBy": "Made by"
   },
   "Admin": {
     "nav": {

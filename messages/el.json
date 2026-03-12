@@ -1,14 +1,56 @@
 {
-  "HomePage": {
-    "title": "Καλώς ήρθατε",
-    "description": "Ξεκινήστε επεξεργάζοντας αυτή τη σελίδα.",
-    "components": {
-      "title": "Διαθέσιμα Components",
-      "button": "Κουμπί",
-      "input": "Πεδίο εισαγωγής",
-      "card": "Κάρτα",
-      "label": "Ετικέτα"
+  "Nav": {
+    "services": "Υπηρεσίες",
+    "about": "Σχετικά",
+    "gallery": "Gallery",
+    "contact": "Επικοινωνία",
+    "startToday": "Ξεκίνα Σήμερα"
+  },
+  "Hero": {
+    "slogan": "IN HERE WE ALL FIT",
+    "subtitle": "Pilates Reformer · Functional · Cardio",
+    "cta": "Ξεκίνα Σήμερα",
+    "scrollDown": "Ανακάλυψε περισσότερα"
+  },
+  "Services": {
+    "title": "Τα Προγράμματά μας",
+    "subtitle": "Βρες την προπόνηση που σου ταιριάζει",
+    "pilatesReformer": {
+      "name": "Pilates Reformer",
+      "description": "Ενδυνάμωσε τον κορμό σου και βελτίωσε την ευλυγισία σου με καθοδηγούμενες συνεδρίες reformer στο πλήρως εξοπλισμένο studio μας."
+    },
+    "functional": {
+      "name": "Functional Training",
+      "description": "Χτίσε πραγματική δύναμη με δυναμικές ασκήσεις χρησιμοποιώντας TRX, kettlebells και ασκήσεις σωματικού βάρους."
+    },
+    "cardio": {
+      "name": "Cardio",
+      "description": "Ενίσχυσε την αντοχή σου και κάψε θερμίδες με υψηλής ενέργειας cardio προπονήσεις για όλα τα επίπεδα φυσικής κατάστασης."
     }
+  },
+  "About": {
+    "title": "Σχετικά",
+    "heading": "In Here, We All Fit",
+    "p1": "Στο NFW, πιστεύουμε ότι το fitness είναι για κάθε σώμα. Ανεξάρτητα από ηλικία, σωματότυπο ή εμπειρία — ανήκεις εδώ.",
+    "p2": "Το studio μας στον Υμηττό προσφέρει έναν φιλόξενο χώρο όπου η συμπερίληψη συναντά την ένταση. Είτε πατάς σε Pilates reformer για πρώτη φορά είτε σπρώχνεις τα όριά σου με functional training, οι έμπειροι προπονητές μας είναι δίπλα σου σε κάθε βήμα.",
+    "p3": "Γίνε μέλος μιας κοινότητας όπου χωράνε όλοι."
+  },
+  "Gallery": {
+    "title": "Gallery",
+    "subtitle": "Η ζωή στο NFW",
+    "followUs": "Ακολούθησέ μας στο Instagram"
+  },
+  "Contact": {
+    "title": "Επικοινωνία",
+    "subtitle": "Επισκέψου μας ή επικοινώνησε μαζί μας",
+    "address": "Διεύθυνση",
+    "phone": "Τηλέφωνο",
+    "email": "Email",
+    "findUs": "Βρες μας"
+  },
+  "Footer": {
+    "rights": "Με επιφύλαξη παντός δικαιώματος.",
+    "madeBy": "Κατασκευή από"
   },
   "Admin": {
     "nav": {
